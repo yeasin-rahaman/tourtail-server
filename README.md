@@ -1,6 +1,6 @@
 <h1>Tour Tail</h1>
 
-  <h2> Click to see  :  <a href="https://car-hub-bd.netlify.app/">Live Site</a> </h2>
+  <h2> Click to see  :  <a href="https://tourtails.netlify.app/">Live Site</a> </h2>
   
 <hr>
 <h3>This Website is made with react, bootstrap, and some css and Jason, Firebase</h3>
