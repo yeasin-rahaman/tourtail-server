@@ -30,7 +30,7 @@ async function run() {
 
         // Get api
         app.get('/blogs', async (req, res) => {
-            console.log(req.query);
+            // console.log(req.query);
             const filter = req.query.filter;
             if (filter === '' || filter === 'all' || (!filter)) {
                 backendFilter = { status: "approved" }
