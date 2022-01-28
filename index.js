@@ -81,6 +81,16 @@ async function run() {
 
 
 
+
+        // get all orders 
+        app.get('/allReviews', async (req, res) => {
+            const cursor = reviewCollection.find({});
+            const result = await cursor.toArray();
+            res.send(result);
+        })
+
+
+
         // get review
 
         app.get('/review/:id', async (req, res) => {
