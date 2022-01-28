@@ -91,7 +91,7 @@ async function run() {
 
 
 
-        // get review
+        // get all  review
 
         app.get('/review/:id', async (req, res) => {
             const result = await reviewCollection.find({ blogId: req.params.id }).toArray()
